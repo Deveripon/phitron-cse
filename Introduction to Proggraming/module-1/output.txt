@@ -1,9 +1,1 @@
-Size of int: 4 bytes
-Size of float: 4 bytes
-Size of double: 8 bytes
-Size of char: 1 bytes
-Size of _Bool: 1 bytes
-size of 12: 4 
-:4 
-variable printing a : 12 
-printing floating value : 12.5
+You entered 1000

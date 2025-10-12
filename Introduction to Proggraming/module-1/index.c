@@ -1,6 +1,6 @@
 // Basic Syntax of C programming language
 # include <stdio.h>
-
+# include <stdbool.h>
 int main(){
        
 
@@ -44,17 +44,25 @@ _Bool e = 1; // 1 -> true, 0 -> false
 
 
 int bdd = 12.5;
+bool x = 0;
+
+    // printf("Size of int: %zu bytes\n", sizeof(a));
+    // printf("Size of float: %zu bytes\n", sizeof(b));
+    // printf("Size of double: %zu bytes\n", sizeof(c));
+    // printf("Size of char: %zu bytes\n", sizeof(d));
+    // printf("Size of _Bool: %zu bytes\n", sizeof(e));
+    // printf("size of 12: %zu \n",sizeof(bdd));
+    // printf(":%zu \n",sizeof(bdd));
+    // printf("variable printing a : %d \n", a);
+    // printf("printing floating value : %.3f \n", b);
+    // printf("printing boolean value : %d \n", x);
 
 
-    printf("Size of int: %zu bytes\n", sizeof(a));
-    printf("Size of float: %zu bytes\n", sizeof(b));
-    printf("Size of double: %zu bytes\n", sizeof(c));
-    printf("Size of char: %zu bytes\n", sizeof(d));
-    printf("Size of _Bool: %zu bytes\n", sizeof(e));
-    printf("size of 12: %zu \n",sizeof(bdd));
-    printf(":%zu \n",sizeof(bdd));
-    printf("variable printing a : %d \n", a);
-    printf("printing floating value : %.1f", b);
+    // Taking Input in C programming language
 
-    return 0;
+int num1;
+
+scanf("%d", &num1);
+printf("You entered %d\n", num1);
+return 0;
 }
