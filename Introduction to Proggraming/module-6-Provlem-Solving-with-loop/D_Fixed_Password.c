@@ -34,12 +34,13 @@ Correct
 int main(){
     int n;
     int correct_password = 1999;
-   while(n != correct_password){ 
+   while(n != EOF){ 
         scanf("%d", &n);
         if(n != correct_password){
             printf("Wrong\n");
         }else{
             printf("Correct\n");
+            break;
         }
     }
     

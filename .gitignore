@@ -1,0 +1,60 @@
+# Ignore large output files and input/output data files
+*.txt
+*.dat
+*.bin
+*.out
+
+# C/C++ compiled executables and object files
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# C executable files (no extension)
+# Match files that are executable but have no extension
+*
+!*/
+!*.*
+!Makefile
+!README*
+!LICENSE*
+!CHANGELOG*
+!CONTRIBUTING*
+!.gitignore
+!.gitattributes
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Allow specific important files
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.cc
+!*.cxx
+!*.py
+!*.java
+!*.js
+!*.html
+!*.css
+!*.md
+!*.json
+!*.xml
+!*.yaml
+!*.yml
