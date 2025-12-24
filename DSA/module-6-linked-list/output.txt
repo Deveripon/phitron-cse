@@ -1,0 +1,3 @@
+10 -> 20 -> 30 -> 40 -> NULL
+Printing in reverse order: 
+40 -> 30 -> 20 -> 10 -> 
