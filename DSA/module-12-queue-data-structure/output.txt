@@ -1,0 +1,4 @@
+Front element: 20
+Back element: 20
+Queue size: 1
+Is queue empty? No
