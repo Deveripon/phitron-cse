@@ -1,0 +1,2 @@
+Shortest distance from node 0 to node 5 is: 3
+0 1 4 5 
